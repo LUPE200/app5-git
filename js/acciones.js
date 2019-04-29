@@ -1,9 +1,8 @@
 //JavaScript 
-
-$(document).ready(function(e){
-	document.addEventListener("deviceready",function(){
+$(document).ready(function(e) {
+ document.addEventListener("deviceready" ,function() {
 		
-		$(' #beep ').tap(function(){
+		$('#beep').tap(function(){
 			navigator.notification.beep(1);
 		});//tap beep
 		
@@ -12,7 +11,7 @@ $(document).ready(function(e){
 		});//tap vibrar
 	
 	},false); //deviceready
-});//ready
+}); //ready
 
 		
 		
