@@ -11,12 +11,12 @@
   Aplicacion que realiza la Vibracion y beep  aplicacion del Dispositivo
   </description>
   
-  <author href="https://build.phonegap.com" email="emmajuarezxelhua@gmail.com">
+  <author href="https://build.phonegap.com" email="paolaorti87@gmail.com">
   Guadalupe Juarez Xelhua
   </author>
   
   <!--Personaliza la aplicacion y plataforma -->
-  <!--<preference name="orientation"  value="default" />-->
+  <!-- <preference name="orientation"  value="default" />-->
   <preference name="orientation"  value="portrait"/>
   <!--<preference name"orientation"  value="landscape" /> -->
   <preference name="target-device"  value="universal" />
@@ -30,7 +30,7 @@
   <plugin name="cordova-plugin-vibration" spec="~2.1.3" />
   <plugin name="cordova-plugin-dialogs" spec="~1.3.2" />
   
-  <!--<plugin name="cordova-plugin-whitelist" source="npm"/>-->
+  <!--<plugin name="cordova-plugin-geolocation" source="npm"/>-->
   <!--Third part plugins-->
   
   <!--Colocar icono app -->
